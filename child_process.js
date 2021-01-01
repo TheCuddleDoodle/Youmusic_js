@@ -1,7 +1,7 @@
 const{exec} = require("child_process")
 
 
-exec('ping 1.1.1.1', (error, stdout, stderr) => {
+exec('youtube-dl -g':${link}, (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
         return;
