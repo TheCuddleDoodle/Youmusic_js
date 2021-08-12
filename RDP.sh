@@ -1,8 +1,8 @@
 #! /bin/bash
 printf "Installing RDP Be Patience... " >&2
 {
-sudo useradd -m new
-sudo adduser new sudo
+sudo useradd -m curb
+sudo adduser curb sudo
 echo 'new:new' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
